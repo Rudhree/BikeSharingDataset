@@ -113,7 +113,7 @@ st.title("🚴 Bike Sharing Analysis Dashboard")
 st.markdown("### 📊 Analisis Penyewaan Sepeda Berbasis Data")
 
 # ======================
-# KPI STYLE (CENTER)
+# KPI STYLE (CENTER) - FIXED
 # ======================
 st.markdown("""
 <style>
@@ -123,14 +123,16 @@ st.markdown("""
     border-radius: 15px;
     text-align: center;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.05);
+    color: #212529; /* 🔥 semua teks jadi gelap */
 }
 .kpi-title {
     font-size: 14px;
-    color: gray;
+    color: #6c757d; /* abu-abu biar soft */
 }
 .kpi-value {
     font-size: 30px;
     font-weight: bold;
+    color: #212529; /* 🔥 ini fix utama */
 }
 </style>
 """, unsafe_allow_html=True)
