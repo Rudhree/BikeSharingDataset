@@ -16,8 +16,8 @@ sns.set_style("whitegrid")
 # ======================
 # LOAD DATA
 # ======================
-day_df = pd.read_csv("data_1.csv")
-hour_df = pd.read_csv("data_2.csv")
+day_df = pd.read_csv("day.csv")
+hour_df = pd.read_csv("hour.csv")
 
 # ======================
 # MAPPING
